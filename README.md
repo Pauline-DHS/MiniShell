@@ -49,4 +49,4 @@ $ unset VAR
 — De gérer les opérateurs !, && et || comme les gère le bash
 
 
-Ce projet a été réaliser en binôme dans le cadre d'un projet universitaire en 2022.
+# 🤝 Ce projet a été réaliser en binôme dans le cadre d'un projet universitaire en 2022.
