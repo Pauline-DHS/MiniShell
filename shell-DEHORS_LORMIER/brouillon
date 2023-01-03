@@ -1,0 +1,39 @@
+    // Lire une ligne dans cmdline - Attention fgets enregistre le \n final
+    //if (fgets(cmdline, MAX_LINE_SIZE, stdin)==NULL) break;
+    //cmdline[strlen(cmdline)-1]='\0';
+    
+    
+    // Traiter la ligne de commande
+    //   - supprimer les espaces en début et en fin de ligne
+    //   - ajouter d'éventuels espaces autour de ; ! || && & ...
+    //   - supprimer les doublons d'espaces
+    //   - traiter les variables d'environnement
+
+    // Découper la ligne dans cmdtoks
+
+    // Traduire la ligne en structures processus_t dans processes
+    // Les commandes sont chaînées en fonction des séparateurs
+    //   - next -> exécution inconditionnelle
+    //   - next_success -> exécution si la commande précédente réussit
+    //   - next_failure -> exécution si la commande précédente échoue
+
+    // Exécuter les commandes dans l'ordre en fonction des opérateurs
+    // de flux
+    //for (current=processes; current!=NULL; ) {
+    //  exec_process(current);
+    //  if (current->next!=NULL) {
+	// Exécution inconditionnelle
+	//current=current->next;
+	//continue;
+      //}
+      //if (current->next_success!=NULL) {
+	// Si la commande a réussi
+	//  current = current->next_success;
+	//continue;
+  //    }
+  //    if (current->next_failure!=NULL) {
+	// Si la commande a échoué
+	//  current = current->next_failure;
+      //}
+    //}
+  //}
